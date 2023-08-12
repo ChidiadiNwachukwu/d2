@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+    text-align: center;
+  }
+  h2{
+    color:darkslategrey;
+    margin-left: 20px;
+    text-align: center;
+  }
+  p{
+    color:brown;
+    text-align: justify;
+    font-family: monospace;
+    font-size: medium;
+  }
+  input{
+    width: 300px;
+  }

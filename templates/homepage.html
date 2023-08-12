@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>
+        
+        </title>
+        <link rel="stylesheet" href="static/css/CSS_EXP_2.css">
+    </head>
+    
+    <body>
+        <div style="text-align:center;">
+            <h1>
+                Diabetes Prediction
+            </h1>
+            
+            <form action="predict" method="post">
+
+                <input name="pregnancies" type="number" placeholder="Enter Number of Pregnancies" min="0" max="20"  required/>
+                <br> <br> 
+                <input name="glucose" type="number" placeholder="Enter Glucose" min="0" max="800"  required/>
+                <br> <br> 
+                <input name="bp" type="number" placeholder="Enter Blood Pressure" min="0" max="200"  required/>
+                <br> <br> 
+                <input name="skin_thickness" type="number" placeholder="Enter Skin Thickness" min="0" max="100"  required/>
+                <br> <br> 
+                <input name="insulin" type="number" placeholder="Enter Insulin" min="30" max="200"  required/>
+                <br> <br> 
+                <input name="bmi" type="number" placeholder="Enter BMI" min="20" max="80"  required/>
+                <br> <br> 
+                <input name="DBF" type="number" placeholder="Enter car Diabetes Pedegree Function" min="0.0" max="4.0"  required/>
+                <br> <br>
+                <input name="AGE" type="number" placeholder="Enter Age" min="0" max="120" required/>
+                <br> 
+                
+               <br> <br><button>Predict Price </button>
+            
+                <br><br>
+                {{prediction_value}}
+            </form>
+        </div>
+    </body>    
+</html>
+
+
+
+
+
